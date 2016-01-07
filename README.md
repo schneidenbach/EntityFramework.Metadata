@@ -1,5 +1,5 @@
 # EntityFramework.Metadata #
-[![Nuget](https://img.shields.io/nuget/dt/EntityFramework.Metadata.svg)](https://www.nuget.org/packages/EntityFramework.Metadata/)
+[![Nuget](https://img.shields.io/nuget/v/EntityFramework.Metadata.svg)](https://www.nuget.org/packages/EntityFramework.Metadata/)
 
 Get table metadata for your Entity Framework entities.  Need to know the table name of your entity programatically?  Schema name?  Column name from a property?  EntityFramework.Metadata has that and more.
 
