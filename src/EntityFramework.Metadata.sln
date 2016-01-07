@@ -1,0 +1,28 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework.Metadata", "EntityFramework.Metadata\EntityFramework.Metadata.csproj", "{609BE91A-F11B-49BC-98D9-F7C83517A59E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework.Metadata.Test", "EntityFramework.Metadata.Test\EntityFramework.Metadata.Test.csproj", "{C9530AA5-ACAD-4892-96E8-987A7847C341}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{609BE91A-F11B-49BC-98D9-F7C83517A59E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{609BE91A-F11B-49BC-98D9-F7C83517A59E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{609BE91A-F11B-49BC-98D9-F7C83517A59E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{609BE91A-F11B-49BC-98D9-F7C83517A59E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9530AA5-ACAD-4892-96E8-987A7847C341}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9530AA5-ACAD-4892-96E8-987A7847C341}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9530AA5-ACAD-4892-96E8-987A7847C341}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9530AA5-ACAD-4892-96E8-987A7847C341}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

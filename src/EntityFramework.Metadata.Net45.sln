@@ -1,0 +1,28 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework.Metadata.Net45", "EntityFramework.Metadata\EntityFramework.Metadata.Net45.csproj", "{168DD262-C4DB-49E8-BF62-BFDD3B6DA41E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework.Metadata.Test.Net45", "EntityFramework.Metadata.Test\EntityFramework.Metadata.Test.Net45.csproj", "{BC13B004-21FE-4A7A-8B8B-728E4A9CEC67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{168DD262-C4DB-49E8-BF62-BFDD3B6DA41E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{168DD262-C4DB-49E8-BF62-BFDD3B6DA41E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{168DD262-C4DB-49E8-BF62-BFDD3B6DA41E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{168DD262-C4DB-49E8-BF62-BFDD3B6DA41E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC13B004-21FE-4A7A-8B8B-728E4A9CEC67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC13B004-21FE-4A7A-8B8B-728E4A9CEC67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC13B004-21FE-4A7A-8B8B-728E4A9CEC67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC13B004-21FE-4A7A-8B8B-728E4A9CEC67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
