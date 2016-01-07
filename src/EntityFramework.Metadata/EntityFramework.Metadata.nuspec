@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>EntityFramework.Metadata</id>
+    <version>$version$</version>
+    <title>EntityFramework.Metadata</title>
+    <authors>Spencer Schneidenbach</authors>
+    <owners>Spencer Schneidenbach</owners>
+    <licenseUrl>https://github.com/schneidsDotNet/EntityFramework.Metadata/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/schneidsDotNet/EntityFramework.Metadata</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>Table metadata provider for your Entity Framework entities.</summary>
+    <description>Table metadata provider for your Entity Framework entities.</description>
+    <copyright>Copyright 2016</copyright>
+    <tags>EntityFramework</tags>
+	<dependencies>
+	  <dependency id="EntityFramework" version="6.0.0" />
+	</dependencies>
+  </metadata>
+  <files>
+	<file src="bin\Release\NET40\EntityFramework.Metadata.dll" target="lib\net40" />
+	<file src="bin\Release\NET40\EntityFramework.Metadata.xml" target="lib\net40" />
+	<file src="bin\Release\NET45\EntityFramework.Metadata.dll" target="lib\net45" />
+	<file src="bin\Release\NET45\EntityFramework.Metadata.xml" target="lib\net45" />
+  </files>
+</package>
