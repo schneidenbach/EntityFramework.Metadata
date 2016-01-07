@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>EntityFramework.Metadata</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://github.com/schneidsDotNet/EntityFramework.Metadata/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/schneidsDotNet/EntityFramework.Metadata</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <copyright>Copyright 2016</copyright>
+    <tags>EntityFramework</tags>
+  </metadata>
+  <dependencies>
+	<dependency id="EntityFramework" version="6.0.0" />
+  </dependencies>
+  <files>
+	<file src="src\EntityFramework.Metadata\bin\Release\NET40\EntityFramework.Metadata.dll" target="lib\net40" />
+	<file src="src\EntityFramework.Metadata\bin\Release\NET40\EntityFramework.Metadata.pdb" target="lib\net40" />
+	<file src="src\EntityFramework.Metadata\bin\Release\NET45\EntityFramework.Metadata.dll" target="lib\net45" />
+	<file src="src\EntityFramework.Metadata\bin\Release\NET45\EntityFramework.Metadata.pdb" target="lib\net45" />
+  </files>
+</package>
