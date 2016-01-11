@@ -22,5 +22,6 @@
 	<file src="bin\Release\NET40\EntityFramework.Metadata.xml" target="lib\net40" />
 	<file src="bin\Release\NET45\EntityFramework.Metadata.dll" target="lib\net45" />
 	<file src="bin\Release\NET45\EntityFramework.Metadata.xml" target="lib\net45" />
+	<file src="NuSpec\*.ps1" target="tools" />
   </files>
 </package>
