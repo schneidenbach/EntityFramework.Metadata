@@ -325,7 +325,7 @@ namespace EntityFramework.Metadata.Mappers
 
                 var columnName = edmProperty.Name;
 
-                var edmMember2 = entityMembers.First(e => {
+                var edmMember2 = entityMembers.FirstOrDefault(e => {
                     var metadata = edmProperty.MetadataProperties;
                     var preferredName = metadata.Any(m => m.Name == "PreferredName")
                         ? (string) metadata["PreferredName"].Value
@@ -341,6 +341,11 @@ namespace EntityFramework.Metadata.Mappers
                     var ret = preferredName == edmName;
                     return ret;
                 });
+
+                if (edmMember2 == null) {
+                    i++;
+                    continue;
+                }
 
                 // check if is complex type
                 if (edmMember2.TypeUsage.EdmType.GetType() == typeof(ComplexType))
